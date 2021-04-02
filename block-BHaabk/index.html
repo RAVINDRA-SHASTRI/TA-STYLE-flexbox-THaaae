@@ -3,11 +3,98 @@
 
 2. Inside the header keep the brand name to the left and all the navigation to the right.
 
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+4. Inside the main content take an article section having two columns.
+   In the first column put a heading and some introductory text of the article and 
+   in the second column take an image.
 
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+5. After the article section, take a gallery section, in which there will be two rows and
+   in both the row there will be three columns. Each column must have a different image.
 
 6. After the gallery section footer will come.
 
 7. Use flexbox properties and values to create columns.
  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Blog and Gallery</title>
+     <link rel="stylesheet" href="assets/stylesheet/style.css">
+     <script src="https://kit.fontawesome.com/1ccbc6b453.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <header class="header flex center justify-bw">
+        <div class="logo">
+            <a href="#"><h1>AltCampus</h1></a>
+        </div>
+        <nav>
+             <a href="#">HOME</a>
+             <a href="#">CONTACT</a>
+             <a href="#">BLOG</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container flex">
+
+            <article>
+
+                <div class="div">
+                    <h2>
+                        Lorem ipsum dolor sit amet
+                    </h2>
+                    <p>
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Assumenda temporibus, quisquam omnis quod minus et illo aliquid 
+                     sapiente earum exercitationem cupiditate neque laboriosam,
+                     nostrum praesentium animi voluptatibus vero, maxime .tempora.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit 
+                     Quidem mollitia aut harum, libero modi deleniti possimus officia,
+                     ducimus eveniet porro quaerat voluptatum esse nihil nesciunt
+                     repellendus inventore exercitationem vel architecto?
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Minima aliquam fugit optio perferendis eligendi! Corrupti
+                     repellat voluptatibus commodi quisquam ipsum delectus
+                     voluptatum maiores eaque numquam, natus adipisci soluta eligendi laborum.
+                    </p>
+                </div>
+                </article>
+                <div class="div-two">
+                    <img src="assets/media/image 1.jpg" class="pic" alt="image 1">
+                </div>
+        </section>
+        <section>
+            <div class="image-container flex">
+                <div class="pic-container">
+                   <img src="assets/media/pic 7.jpg" class="pic-one" alt="pic 7">
+               </div>
+               <div class="pic-container">
+                   <img src="assets/media/pic 6.jpg" class="pic-one" alt="pic 6">
+                </div>
+                <div class="pic-container">
+                   <img src="assets/media/pic 5.jpg" class="pic-one" alt="pic 5">
+                </div>
+                <div class="pic-container">
+                   <img src="assets/media/pic 4.jpg" class="pic-one" alt="pic 4">
+                </div>
+                <div class="pic-container">
+                   <img src="assets/media/pic 3.jpg" class="pic-one" alt="pic 3">
+                </div>
+                <div class="pic-container">
+                   <img src="assets/media/pic 2.jpg" class="pic-one" alt="pic 2">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="footer-link">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </nav>
+    </footer>
+     
+ </body>
+ </html>
