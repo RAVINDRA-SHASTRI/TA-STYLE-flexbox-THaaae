@@ -1,0 +1,106 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns.
+   In the first column put a heading and some introductory text of the article and 
+   in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and
+   in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Blog and Gallery</title>
+     <link rel="stylesheet" href="assets/stylesheet/style.css">
+     <script src="https://kit.fontawesome.com/1ccbc6b453.js" crossorigin="anonymous"></script>
+ </head>
+ <body id="top">
+    <header class="header">
+        <div class="container flex">
+            <a class="brand" href="#"><h1>AltCampus</h1></a>
+        <nav class="nav">
+             <a href="#">HOME</a>
+             <a href="#">CONTACT</a>
+             <a href="#">BLOG</a>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="article-section">
+            <article class="container flex">
+                <div class="col-1-2">
+                    <h1 class="article-heading">
+                        Lorem ipsum dolor sit amet
+                    </h1>
+                    <p class="article-text">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Assumenda temporibus, quisquam omnis quod minus et illo aliquid 
+                     sapiente earum exercitationem cupiditate neque laboriosam,
+                     nostrum praesentium animi voluptatibus vero, maxime .tempora.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit 
+                     Quidem mollitia aut harum, libero modi deleniti possimus officia,
+                     ducimus eveniet porro quaerat voluptatum esse nihil nesciunt
+                     repellendus inventore exercitationem vel architecto?
+                    </p>
+                    <p class="article-text">
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Minima aliquam fugit optio perferendis eligendi! Corrupti
+                     repellat voluptatibus commodi quisquam ipsum delectus
+                     voluptatum maiores eaque numquam, natus adipisci soluta eligendi laborum.
+                    </p>
+                </div>
+                <div class="col-1-2">
+                    <img class="article-img" src="assets/media/image 1.jpg" alt="image 1">
+                </div>
+                </article>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <h2 class="heading">Gallery</h2>
+                <div class="flex">
+                <div class="col-1-3">
+                   <img src="assets/media/pic 7.jpg" alt="pic 7">
+               </div>
+               <div class="col-1-3">
+                   <img src="assets/media/pic 6.jpg" alt="pic 6">
+                </div>
+                <div class="col-1-3">
+                   <img src="assets/media/pic 5.jpg" alt="pic 5">
+                </div>
+                <div class="col-1-3">
+                   <img src="assets/media/pic 4.jpg" alt="pic 4">
+                </div>
+                <div class="col-1-3">
+                   <img src="assets/media/pic 3.jpg" alt="pic 3">
+                </div>
+                <div class="col-1-3">
+                   <img src="assets/media/pic 2.jpg" alt="pic 2">
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+        <nav>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </nav>
+        </div>
+    </footer>
+    <a class="top-btn" href="#top">Top</a>
+     
+ </body>
+ </html>
